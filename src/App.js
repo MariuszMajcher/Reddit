@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import SearchForm from './components/search/SearchForm';
+import Articles from './components/articles/Articles';
+import { selectAllSearched } from './components/search/searchedSlice';
+import { useSelector } from 'react-redux';
 import './App.css';
 
 function App() {
+  const articles = useSelector(selectAllSearched)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SearchForm />
+      {articles &&
+      <Articles />} 
     </div>
   );
 }

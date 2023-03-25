@@ -1,0 +1,6 @@
+.container_articles {
+    display: grid;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+}
