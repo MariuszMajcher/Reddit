@@ -1,0 +1,16 @@
+# Reddit App from Codecademy
+
+## Basic plan
+
+1. Main page to be displaying the most recent links to pages
+2. Page for users, form type to include a link, text, picture. Slice will hold comments, likes, id, and author.
+3. Will make testing units for the form.
+4. Separate slice for users that will hold their own links.
+5. Users will be able to make search, words search, category search, user search.
+6. Users can create a post with a picture, or text, make it flexible.
+
+## Plan of action
+
+1. 24/03/2023 - Creating a plan, researching what I need to know in order to plan a wireframe.
+2. 25/03/2023 - Will try to make a wireframe, a basic structure to the app.
+3. 26/03/2023 - Will try to create slices and tests.
