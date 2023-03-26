@@ -2,12 +2,46 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    width: 50%;
+    height: 200px;
+    width: 400px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border-right: 1px solid #1e213a;
+    border-top: 1px solid #1e213a;
+    border-bottom: 1px solid #1e213a;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family:'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right, #5e2323, #1e213a);
+}
+
+.form-question {
+    color: rgb(173, 171, 171);
+    display: flex;
+    gap: 2rem;
+}
+
+input {
+    color: white;
+    background-color: #1e213a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+select {
+    color: white;
+    background-color: #1e213a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+button {
+    color: white;
+    background-color: #1e213a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-family:'Courier New', Courier, monospace;
 }

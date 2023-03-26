@@ -6,8 +6,24 @@ import './App.css';
 
 function App() {
   const articles = useSelector(selectAllSearched)
+  
+    let displayStyle = {
+      textAlign: 'center',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+    }
+
+    if(articles!==undefined) {
+      displayStyle = {}
+    }
+       
+ 
+  
+
   return (
-    <div className="App">
+    <div style={displayStyle} className="App">
       <SearchForm />
       {articles &&
       <Articles />} 
